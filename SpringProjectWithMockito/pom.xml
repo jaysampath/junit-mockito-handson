@@ -1,0 +1,151 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.spring.mockito</groupId>
+  <artifactId>SpringProjectWithMockito</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+		<spring-core-version>4.1.6.RELEASE</spring-core-version>
+		<spring-aop-version>4.1.6.RELEASE</spring-aop-version>
+	</properties>
+ 
+		<dependencies>
+			<!-- A number of dependencies here are unnecessary for our example but 
+				leaving them here to act as an example for typical project with all layers -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aop</artifactId>
+				<version>${spring-aop-version}</version>
+			</dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>org.springframework</groupId> -->
+<!-- 				<artifactId>spring-asm</artifactId> -->
+<!-- 				<version>${spring-aop-version}</version> -->
+<!-- 			</dependency> -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aspects</artifactId>
+				<version>${spring-aop-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-beans</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context-support</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-core</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-jdbc</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-jms</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-oxm</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-orm</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-test</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-tx</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc-portlet</artifactId>
+				<version>${spring-core-version}</version>
+			</dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>org.springframework.security</groupId> -->
+<!-- 				<artifactId>spring-security-core</artifactId> -->
+<!-- 				<version>${spring-core-version}</version> -->
+<!-- 			</dependency> -->
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>1.2.16</version>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.10</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-core</artifactId>
+				<version>1.9.0-rc1</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.easymock</groupId>
+				<artifactId>easymock</artifactId>
+				<version>3.0</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.in28minutes.example.mockito</groupId>
+				<artifactId>in28minutes-mockito-example-model</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.in28minutes.example.mockito</groupId>
+				<artifactId>in28minutes-mockito-example-data-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.in28minutes.example.mockito</groupId>
+				<artifactId>in28minutes-mockito-example-data-impl</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.in28minutes.example.mockito</groupId>
+				<artifactId>in28minutes-mockito-example-business-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.in28minutes.example.mockito</groupId>
+				<artifactId>in28minutes-mockito-example-business-impl</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+		</dependencies>
+
+</project>

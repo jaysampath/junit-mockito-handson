@@ -1,1 +1,1 @@
-# junit-mockito-handson
+# junit-mockito-course
